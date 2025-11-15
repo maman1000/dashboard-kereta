@@ -42,3 +42,14 @@ npm run dev
 
 5. Buka di browser:
 http://localhost:3000/dashboard
+
+🔗 Link GitHub Repository
+
+https://github.com/maman1000/dashboard-kereta
+
+👨‍💻 Penulis / Portfolio
+
+Nama: Maman Darusman
+Peran: Frontend Developer
+Live Demo: https://dashboard-kereta.netlify.app/dashboard
+GitHub: https://github.com/maman1000
