@@ -1,4 +1,5 @@
 import StatsCard from "@/components/StatsCard";
+import TrainChart from "@/components/TrainChart";
 
 export default function DashboardPage() {
   return (
@@ -12,6 +13,9 @@ export default function DashboardPage() {
         <StatsCard title="Lokasi Terpantau" value="128" />
         <StatsCard title="On Time" value="39" />
         <StatsCard title="Delay" value="3" />
+      </div>
+      <div className="mt-10 bg-white p-6 rounded-xl shadow-sm">
+        <TrainChart />
       </div>
     </div>
   );
