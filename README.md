@@ -5,8 +5,8 @@ Dashboard modern untuk memonitor jadwal kereta, status operasional, dan tren per
 
 ---
 
-## 🌐 Live Demo
-[https://dashboard-kereta.netlify.app](https://dashboard-kereta.netlify.app)/dashboard
+## 🌐 Live Demo: 
+[https://dashboard-kereta.netlify.app/dashboard](https://dashboard-kereta.netlify.app/dashboard)
 
 ---
 
