@@ -1,7 +1,59 @@
 import StatsCard from "@/components/StatsCard";
 import TrainChart from "@/components/TrainChart";
+import TrainTable from "@/components/TrainTable";
 
 export default function DashboardPage() {
+  const trainData = [
+    {
+      name: "Argo Parahyangan",
+      departure: "08:00",
+      destination: "Bandung",
+      status: "On Time",
+    },
+    {
+      name: "Gajayana",
+      departure: "09:30",
+      destination: "Malang",
+      status: "Delay",
+    },
+    {
+      name: "Taksaka",
+      departure: "10:00",
+      destination: "Yogyakarta",
+      status: "On Time",
+    },
+    {
+      name: "Turangga",
+      departure: "11:00",
+      destination: "Surabaya",
+      status: "On Time",
+    },
+    {
+      name: "Mutiara Selatan",
+      departure: "12:30",
+      destination: "Surabaya",
+      status: "Delay",
+    },
+    {
+      name: "Serayu",
+      departure: "13:00",
+      destination: "Purwokerto",
+      status: "On Time",
+    },
+    {
+      name: "Bima",
+      departure: "14:00",
+      destination: "Surabaya",
+      status: "On Time",
+    },
+    {
+      name: "Ranggajati",
+      departure: "15:00",
+      destination: "Cirebon",
+      status: "On Time",
+    },
+  ];
+
   return (
     <div>
       <h1 className="text-3xl font-semibold">Dashboard Monitoring Kereta</h1>
@@ -17,6 +69,7 @@ export default function DashboardPage() {
       <div className="mt-10 bg-white p-6 rounded-xl shadow-sm">
         <TrainChart />
       </div>
+      <TrainTable data={trainData} />
     </div>
   );
 }
